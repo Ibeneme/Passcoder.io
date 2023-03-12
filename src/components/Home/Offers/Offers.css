@@ -1,0 +1,139 @@
+.offers-first-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+    justify-content: center;
+    padding: 1em;
+  
+}
+
+.offers-gradient{
+    color:white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 9em;
+    background-image: linear-gradient(to bottom right, #DC6B5C, #5C8FDC);
+}   
+.offers-gradient>h1{
+    color:white;
+    font-size: 1.3em;
+    font-weight: bolder;
+    margin-bottom: 0.2em;
+ }  
+.offers-main-first{
+    gap: 1vw;
+    margin-top: 0.3em;
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+}
+
+.offers-main-first-h1{
+    font-size: 1.3em;
+    font-weight: bolder;
+    margin-top: 1em;
+}
+.offers-main-first-h1-div{
+    width: 100%;
+   
+}
+.offers-main-first-logo>h1{
+    font-size: 1em;
+    font-weight: bolder;
+}
+.offers-main-first-logo{
+    padding-bottom: 0.6em;
+    border-bottom: #292482 dashed 0.09em;
+}
+.offers-main-first-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 0.09em solid #292482;
+    border-radius: 0.4em;
+    padding: 1em;
+}
+.offers-main-secondcontainer-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.offers-main-secondcontainer-flex{
+    display: flex;
+    gap:2em;
+    margin-top: 01em;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1.9em;
+}
+
+.offers-main-secondcontainer-column{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.offers-main-secondcontainer-column>h2{
+    font-size: 1em;
+    font-weight: bolder;
+}
+.offers-main-secondcontainer-column>p{
+    font-size: 0.85em;
+    color: #292482;
+}
+.offers-main-secondcontainer-discount{
+    background-color: #DC6B5C;
+    color: white;
+    padding: 0.27em 0.7em;
+    border-radius: 0 0  0 0.9em ;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end;
+}
+.offers-main-secondcontainer-discount>h1{
+    font-size: 1em;
+    font-weight: bolder;
+    color: white;
+}
+.offers-main-secondcontainer-discount>h2{
+    font-size: 0.78em;
+    color: white;
+}
+
+.offers-button:hover{
+    height: 2.5em;
+    width: 100%;
+    background-color: #DC6B5C;
+    border: 0.1em #DC6B5C solid;
+    border-radius: 0.2em;
+    color:white;
+    transition: 0.4s;
+}
+
+.offers-button{
+    transition: 0.4s;
+    height: 2.5em;
+    width: 100%;
+    background-color: #5C8FDC;
+    border: 0.1em #5C8FDC solid;
+    border-radius: 0.2em;
+    color:white;
+}
+
+@media(max-width:800px){
+
+    .offers-main-first{
+    gap: 0.8em;
+    margin-top: 0.3em;
+    display: flex;
+    flex-direction: column;
+   
+}
+}

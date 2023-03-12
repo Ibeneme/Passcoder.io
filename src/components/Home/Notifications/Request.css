@@ -1,0 +1,215 @@
+.request-h1{
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+.request-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.request-p{
+    font-size: 0.9em;
+    color: gray;
+}
+
+.request-seconddiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.4em;
+    margin-top: 2em;
+    height: 3.2em;
+    background-color: #2A52BE;
+    border-radius: 50em;
+    padding: 1em 1em;
+}
+
+.request-toggle-div{
+    background-color: white;
+    padding: 0.4em 1em;
+    border-radius: 23em;
+    color: #2A52BE;
+    font-size: 0.87em;
+    font-weight: bolder;
+   
+}
+
+.request-toggle-div-para{
+    font-size: 0.87em;
+    color: white;
+}
+
+.request-today-div{
+    margin-top: 2em;
+    align-items: start;
+}
+
+.request-today-div-para{
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+
+.pending-Card-first-container{
+    display: flex;
+    gap: 1em;
+}
+.pending-Card-div{
+    width: 100%;
+    height: 3em;
+    color: white;
+    display: flex;
+    padding-left: 2em;
+    align-items: center;
+    background-color: #2A52BE;
+    border-radius: 01em 01em 0em 0em ;
+}
+
+.pending-Card-details{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: #2A52BE solid 0.09em;
+    padding-bottom: 2em;
+    border-radius:  0 0 1em 1em;
+}
+
+.pending-Card-details-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.pending-Card-details-notifications{
+    width: 3em;
+    height: 3em;
+    color:#2A52BE;
+    background-color: #2A52BE15;
+    display: flex;
+    border-radius: 23em;
+    justify-content: center;
+    align-items: center;
+}
+
+.pending-Card-second-div{
+    gap: 2em;
+}
+.pending-Card-second-div>p{
+    color: gray;
+    font-size: 0.87em;
+}
+
+
+.pending-Card-first-h1{
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+.pending-Card-second-h1{
+    font-size: 1.2em;
+    font-weight: bolder;
+    color:#2A52BE;
+}
+.pending-Card-second-p{
+    color: gray;
+    font-size: 0.87em;
+    text-align: right;
+}
+
+.pending-Card-first-p{
+    color: gray;
+    font-size: 01em;
+    text-align: right;
+    font-weight: bolder;
+}
+
+.pending-Card-button-div{
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.pending-Card-button-decline{
+    width: 20vw;
+    background-color: white;
+    border: #2A52BE solid 0.2em;
+    border-radius: 0.5em;
+    color:#2A52BE;
+    height: 3em;
+}
+.pending-Card-button-accept{
+    width: 20vw;
+    background-color: #2A52BE;
+    border: #2A52BE solid 0.205m;
+    border-radius: 0.5em;
+    color:white;
+    transition: 0.4s;
+    height: 3em;
+}
+.pending-Card-button-accept:hover{
+    width: 20vw;
+    height: 3em;
+    background-color: #E46756;
+    border: #E46756 solid 0.05em;
+    border-radius: 0.5em;
+    color:white;
+    transition: 0.4s;
+}
+.pending-Card{
+    width: 65vw;
+    margin-top: 1em;
+}
+
+.pending-Card{
+    width: 65vw;
+    margin-top: 1em;
+    border: none;
+}
+/* .stroke-side{
+    border-radius: 0;
+    border-right: 0.4em solid #E46756;
+} */
+.pending-Card-details-this{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: #2A52BE solid 0.09em;
+    
+  
+}
+@media(max-width:900px){
+    .pending-Card-button-decline{
+        width: 30vw;
+        background-color: white;
+        border: #2A52BE solid 0.2em;
+        border-radius: 0.5em;
+        color:#2A52BE;
+        height: 3em;
+    }
+    .pending-Card-button-accept{
+        width: 30vw;
+        background-color: #2A52BE;
+        border: #2A52BE solid 0.205m;
+        border-radius: 0.5em;
+        color:white;
+        transition: 0.4s;
+        height: 3em;
+    }
+    .pending-Card-first-h1{
+        font-size: 0.95em;
+        font-weight: bolder;
+    }
+    
+    .pending-Card-second-h1{
+        font-size: 0.95em;
+        font-weight: bolder;
+        color:#2A52BE;
+    }
+    .pending-Card{
+        width: 80vw;
+        margin-top: 0.3em;
+        margin-bottom: 2em;
+    }
+}
